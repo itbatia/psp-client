@@ -1,0 +1,8 @@
+server:
+  port: 8081
+config:
+  webhook:
+    success-rate: 70  #Range 0-100 in percent. Example SUCCESS/FAILED: if success '5%' then 5/95, if success '70%' then 70/30 etc
+  rest:
+    base-url: "http://localhost:8080"  #PSP address to send responses to
+    connection-timeout: 5000
